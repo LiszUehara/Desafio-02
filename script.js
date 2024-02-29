@@ -19,9 +19,9 @@ document.addEventListener("DOMContentLoaded", function() {
         // Atualize as classes dos indicadores
         indicators.forEach((indicator, i) => {
             if (i === currentIndex) {
-                indicator.classList.add('active');
+                indicator.classList.add('selecionado');
             } else {
-                indicator.classList.remove('active');
+                indicator.classList.remove('selecionado');
             }
         });
     }
