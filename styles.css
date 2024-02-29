@@ -891,6 +891,11 @@ div.grid6{
 
 }
 
+.elementos{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
 
 .companies{
   padding: 25px;
