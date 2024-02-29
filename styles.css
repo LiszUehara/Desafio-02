@@ -386,7 +386,7 @@ main {
 }
 
 .item1{
-  background-image: url(/assets/cards-section/1.png);
+  background-image: url(./assets/cards-section/1.png);
   background-size: cover;
   background-position: center;
   
@@ -395,14 +395,14 @@ main {
 
 
 .item2{
-  background-image: url(/assets/cards-section/2.png);
+  background-image: url(./assets/cards-section/2.png);
   background-size: cover;
   background-position: center;
 }
 
 
 .item3{
-  background-image: url(/assets/cards-section/3.png);
+  background-image: url(./assets/cards-section/3.png);
   background-size: cover;
   background-position: center
 }
@@ -451,7 +451,7 @@ grid-template-areas:
 
 .area1{
 grid-area: area1;
-background-image: url(/assets/cards-section2/card-cover-5.jpg);
+background-image: url(./assets/cards-section2/card-cover-5.jpg);
 background-size: cover;
 width: 389px;
 height: 895px;
@@ -461,7 +461,7 @@ border: 1px solid #8EC2F2;
 
 .area-best2 .area1{
 grid-area: area1;
-background-image: url(/assets/cards-section3/card-cover-5.jpg);
+background-image: url(./assets/cards-section3/card-cover-5.jpg);
 background-size: cover;
 width: 389px;
 height: 895px;
