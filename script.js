@@ -3,7 +3,8 @@ document.addEventListener("DOMContentLoaded", function() {
     const nextButton = document.getElementById("next-button");
     const containerImages = document.querySelector(".container-images");
     const images = document.querySelectorAll(".container-images img");
-
+    const indicators = document.querySelectorAll('.indicator');
+    
     let currentIndex = 0;
 
     function showImage(index) {
@@ -14,6 +15,15 @@ document.addEventListener("DOMContentLoaded", function() {
         }
         containerImages.style.transform = `translateX(-${index * 100}%)`;
         currentIndex = index;
+    
+        // Atualize as classes dos indicadores
+        indicators.forEach((indicator, i) => {
+            if (i === currentIndex) {
+                indicator.classList.add('active');
+            } else {
+                indicator.classList.remove('active');
+            }
+        });
     }
 
     prevButton.addEventListener("click", () => {
