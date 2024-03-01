@@ -140,18 +140,18 @@ main {
   justify-content: center;
   align-items: center;
   z-index: 1;
-  width: 100%; /* Definir largura total */
+  width: 1440px;
 }
 
 .container-images {
     display: flex;
-    width: 100%;
+    width: 1440px;
     transition: transform 0.5s ease;
     z-index: 0;
 }
 
 .slider {
-  width: 1225px;
+  width: 140pxpx;
   height: 640px;
   object-fit: cover;
 }
